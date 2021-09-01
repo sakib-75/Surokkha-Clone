@@ -1,0 +1,175 @@
+@media only screen and (max-width: 768px) {
+
+
+    .header-container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    /*................*/
+    /* Hero section */
+    /*..............*/
+
+    .hero-section {
+        height: auto;
+    }
+
+    .hero-grid {
+        width: 90%;
+        padding: 30px 0px;
+        grid-template-columns: auto;
+    }
+
+    .item-body {
+        width: auto;
+    }
+
+    .item1-head {
+        margin-bottom: 50px;
+    }
+
+    /*................*/
+    /* Help section */
+    /*..............*/
+
+    .help-line-main {
+        width: 100%;
+        margin: 0px;
+        padding: 30px 0px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .help-line-ctg::after {
+        display: none;
+    }
+
+    .help-line-ctg h4:nth-child(2) {
+        border-bottom: 1px solid #B0B0B0;
+        padding-bottom: 5px;
+
+    }
+
+    /*..................*/
+    /* Process section */
+    /*................*/
+
+    .process-section-main {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .col-3 {
+        grid-template-columns: auto;
+        grid-row-gap: 40px;
+
+    }
+
+    /*......................*/
+    /* Google play section */
+    /*....................*/
+
+    .google-play-section {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 10px;
+
+    }
+
+    /*......................*/
+    /* Mujib 100 section */
+    /*....................*/
+
+    .mujib100-main {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .mujib100-col-3 {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 40px;
+    }
+
+    /*......................*/
+    /* Footer section */
+    /*....................*/
+
+    .footer-body {
+        width: 100%;
+        padding: 30px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 40px;
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+
+    .header-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    #mobile-nav {
+        width: 90%;
+    }
+
+    .help-line-main {
+        width: 90%;
+    }
+
+    .process-section-main {
+        width: 90%;
+    }
+
+    .google-play-section {
+        width: 90%;
+    }
+
+    .mujib100-main {
+        width: 90%;
+    }
+
+    .footer-body {
+        width: 90%;
+    }
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .logo {
+        height: 50%;
+        width: 50%;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .menu-btn {
+        display: initial;
+        padding: 4px 12px;
+        font-size: 24px;
+        border: 1px solid #E0E1E5;
+        background-color: #F9FBFF;
+        border-radius: 5px;
+    }
+
+    .menu-btn i {
+        color: #7D7E80;
+        height: 30px;
+        width: 30px;
+    }
+
+
+}
